@@ -12,7 +12,7 @@ Standard setuptool installation, run
 ```
 python setup.py install
 ```
-or advanced versions using `develop`, `--user`, etc. -- see the documentation
+or advanced versions using `develop`, `--user`, etc. – see the documentation
 for more details.
 
 
