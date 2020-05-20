@@ -2,8 +2,36 @@
 
 Template for new CMI Python-software projects.
 
-This includes the basic setup of a Python project with library, scripts, and
-sphinx documentation.
+This includes the basic setup of a Python project with library, scripts, pytest
+testing, and sphinx documentation.
+
+
+## Installation
+
+Standard setuptool installation, run
+```
+python setup.py install
+```
+or advanced versions using `develop`, `--user`, etc. -- see the documentation
+for more details.
+
+
+## Documentation
+
+See this very sphinx-generated documentation for further details; it can be
+produced by running
+```
+python setup.py build_sphinx
+```
+
+
+## Testing
+
+Standard tests are implemented in `tests/`, run by executing
+```
+pytest
+```
+
 
 
 <!-- Put Emacs local variables into HTML comment

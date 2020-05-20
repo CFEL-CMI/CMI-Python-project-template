@@ -23,8 +23,15 @@ Copyright (C) 2020 Jochen Küpper <jochen.kuepper@cfel.de>"""
 
 __author__ = "Jochen Küpper <jochen.kuepper@cfel.de>"
 
-import unittest
+# using pytest we can write very simple tests
+def test_template():
+    assert(2.*5.-10. == 0.)
 
+
+
+# alternativly, we can also use a standard unittest.TestCase setup, which is automatically picked up
+# by pytest
+import unittest
 
 class TemplateTest(unittest.TestCase):
     """Test the template tests;-)"""

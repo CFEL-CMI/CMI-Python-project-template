@@ -5,6 +5,10 @@
 
 from setuptools import setup
 
+copyright = 'Copyright (C) 2020 Jochen Küpper <jochen.kuepper@cfel.de>'
+name = "CMI Python-project template"
+version = "0.1.dev0"
+release = version
 long_description = """CMI Python template
 
 This is the installation and general build file of the CMI Python project template.
@@ -13,10 +17,6 @@ Original author:    Jochen Küpper <jochen.kuepper@cfel.de>
 Current maintainer: Jochen Küpper <jochen.kuepper@cfel.de>
 """
 
-name = "CMI Python-project template"
-version = "0.1.dev0"
-release = version
-copyright = 'Copyright (C) 2020 Jochen Küpper <jochen.kuepper@cfel.de>'
 
 setup(name=name,
       python_requires     = '>=3.6',
@@ -31,7 +31,6 @@ setup(name=name,
       license             = "GPL",
       packages            = ['cmitemplate'],
       scripts             = ['scripts/cmitemplate_calc'],
-      test_suite          = 'tests',
       command_options={
           'build_sphinx': {
               'project': ('setup.py', name),
