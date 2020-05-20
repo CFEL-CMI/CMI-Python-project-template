@@ -7,7 +7,7 @@ from setuptools import setup
 
 copyright = 'Copyright (C) 2020 Jochen Küpper <jochen.kuepper@cfel.de>'
 name = "CMI Python-project template"
-version = "0.1.dev0"
+version = "0.1"
 release = version
 long_description = """CMI Python template
 
