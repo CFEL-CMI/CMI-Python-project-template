@@ -47,7 +47,7 @@ Version control (git) details
     * commit such doc-only updates as separate commits!
     * one can then merge these doc-only commits into ``feature/`` branches
 
-  * **Bever implement a change twice** manually. Implement it on the most appropriate branch, then
+  * **Never implement a change twice** manually. Implement it on the most appropriate branch, then
     merge it into whatever branch you want to have it.
 
 

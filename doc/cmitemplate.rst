@@ -1,5 +1,5 @@
-cmistark package
-================
+cmitemplate package
+===================
 
 Submodules
 ----------

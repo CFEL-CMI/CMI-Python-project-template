@@ -1,5 +1,5 @@
-cmistark.molecule module
-========================
+cmitemplate.template module
+===========================
 
 .. automodule:: cmitemplate.template
     :members:
