@@ -3,13 +3,12 @@
 #
 # Copyright (C) 2020 Jochen Küpper <jochen.kuepper@cfel.de>
 
-
-import os
 from setuptools import setup
 
-extra_compile_args = []
-library_dirs = []
-
+copyright = 'Copyright (C) 2020 Jochen Küpper <jochen.kuepper@cfel.de>'
+name = "CMI Python-project template"
+version = "0.1"
+release = version
 long_description = """CMI Python template
 
 This is the installation and general build file of the CMI Python project template.
@@ -19,18 +18,25 @@ Current maintainer: Jochen Küpper <jochen.kuepper@cfel.de>
 """
 
 
-setup(name="cmistark",
-      python_requires     = '>=3.5',
+setup(name=name,
+      python_requires     = '>=3.6',
       author              = "Jochen Küpper and the CFEL-CMI group",
       author_email        = "jochen.kuepper@cfel.de",
       maintainer          = "Jochen Küpper and the CFEL-CMI group",
       maintainer_email    = "jochen.kuepper@cfel.de",
       url                 = "https://github.com/CFEL-CMI/CMI-Python-project-template",
       description         = "CMI Python-software template",
-      version             = "0.1.dev0",
+      version             = version,
       long_description    = long_description,
       license             = "GPL",
       packages            = ['cmitemplate'],
       scripts             = ['scripts/cmitemplate_calc'],
-      test_suite          = 'tests',
+      command_options={
+          'build_sphinx': {
+              'project': ('setup.py', name),
+              'version': ('setup.py', version),
+              'release': ('setup.py', release),
+              'source_dir': ('setup.py', 'doc'),
+              'copyright': ('setup.py', copyright)}
+      },
       )
