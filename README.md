@@ -14,7 +14,7 @@ Standard setuptool installation, run
 python setup.py install
 ```
 or advanced versions using `develop`, `--user`, etc. – see the
-[documentation\(https://cmi-python-project-template.readthedocs.io) for more details.
+[documentation](https://cmi-python-project-template.readthedocs.io) for more details.
 
 
 ## Documentation
