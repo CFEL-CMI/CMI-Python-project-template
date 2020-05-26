@@ -2,8 +2,7 @@
 
 Template for new CMI Python-software projects.
 
-This includes the basic setup of a Python project with library, scripts, pytest
-testing, and [sphinx
+This includes the basic setup of a Python project with library, scripts, pytest testing, and [sphinx
 documentation](https://cmi-python-project-template.readthedocs.io).
 
 
@@ -26,6 +25,7 @@ details; it can be produced by running
 python setup.py build_sphinx
 ```
 
+See also the [license](./LICENSE.md).
 
 ## Testing
 
@@ -36,5 +36,9 @@ pytest
 
 
 
-<!-- Put Emacs local variables into HTML comment Local Variables: coding: utf-8
-fill-column: 80 End: -->
+<!-- Put Emacs local variables into HTML comment
+Local Variables:
+coding: utf-8
+fill-column: 100
+End:
+-->
